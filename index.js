@@ -33,7 +33,7 @@ let Calculator = {
   }
 }
 
-function actionApplyer(int, arrayOfTransforms = undefined) {
+function actionApplyer(int, arrayOfTransforms) {
   if (arrayOfTransforms = undefined) {
     return int;
   } else {
