@@ -35,6 +35,7 @@ let Calculator = {
 
 function actionApplyer(int, arrayOfTransforms) {
   let i = int;
+  for()
   if (arrayOfTransforms = undefined) {
     return int;
   } else {
