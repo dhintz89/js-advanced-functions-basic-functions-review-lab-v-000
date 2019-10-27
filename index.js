@@ -34,5 +34,5 @@ let Calculator = {
 }
 
 function actionApplyer(int, functions) {
-  
+  return int 
 }
