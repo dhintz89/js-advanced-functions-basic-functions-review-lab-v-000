@@ -16,5 +16,11 @@ function wrapAdjective(flair = "*") {
 }
 
 let Calculator = {
+  add() {
+    return 1 + 3;
+  }
   
+  subtract() {
+    return 1 - 3
+  }
 }
