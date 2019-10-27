@@ -33,6 +33,6 @@ let Calculator = {
   }
 }
 
-function actionApplyer(int, functions) {
-  return int 
+function actionApplyer(int, arrayOfTransforms) {
+  return int arrayOfTransforms
 }
