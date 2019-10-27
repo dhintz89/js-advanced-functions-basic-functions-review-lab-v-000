@@ -18,9 +18,9 @@ function wrapAdjective(flair = "*") {
 let Calculator = {
   add: function() {
     return 1 + 3;
-  }
+  },
   
-  // subtract: function() {
-  //   return 1 - 3;
-  // }
+  subtract: function() {
+    return 1 - 3;
+  }
 }
