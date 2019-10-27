@@ -34,5 +34,5 @@ let Calculator = {
 }
 
 function actionApplyer(int, arrayOfTransforms) {
-  return int arrayOfTransforms
+  return arrayOfTransforms(int);
 }
