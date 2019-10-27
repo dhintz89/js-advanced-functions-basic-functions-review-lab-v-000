@@ -6,7 +6,7 @@ function saturdayFun(activity = "roller-skate") {
 }
 
 // expression  (not hoisted)
-let fn = function(activity) {
+let mondayWork = function(activity) {
     return `This Monday, I will ${activity}.`
 }
 
