@@ -16,11 +16,11 @@ function wrapAdjective(flair = "*") {
 }
 
 let Calculator = {
-  add() {
+  add: function() {
     return 1 + 3;
   }
   
-  subtract() {
-    return 1 - 3
-  }
+  // subtract: function() {
+  //   return 1 - 3;
+  // }
 }
