@@ -29,10 +29,15 @@ let Calculator = {
   },
   
   divide: function() {
-    return 1 / 3;
+    return 10 / 5;
   }
 }
 
 function actionApplyer(int, arrayOfTransforms = undefined) {
+  if (arrayOfTransforms = undefined) {
+    return int;
+  } else {
+    
+  }
   return arrayOfTransforms(int);
 }
