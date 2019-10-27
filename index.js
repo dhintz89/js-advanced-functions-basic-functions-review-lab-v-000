@@ -32,3 +32,7 @@ let Calculator = {
     return 1 / 3;
   }
 }
+
+function actionApplyer(int, ) {
+  
+}
