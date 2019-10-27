@@ -33,6 +33,6 @@ let Calculator = {
   }
 }
 
-function actionApplyer(int, arrayOfTransforms) {
+function actionApplyer(int, arrayOfTransforms = undefined) {
   return arrayOfTransforms(int);
 }
