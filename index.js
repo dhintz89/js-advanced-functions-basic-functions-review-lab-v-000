@@ -10,10 +10,10 @@ let fn = function(activity) {
     return `This Monday, I will ${activity}.`
 }
 
-// Anonymous
-function() {
-    return "This type of function doesn't have a name"
-}
+// // Anonymous
+// function() {
+//     return "This type of function doesn't have a name"
+// }
 
 // IIFE (Instantly-Invoked Function Expression)  (hides scope within)
 (function(x){return 2+x})(4)   // returns 6 
