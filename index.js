@@ -37,7 +37,6 @@ function actionApplyer(int, arrayOfTransforms = undefined) {
   if (arrayOfTransforms = undefined) {
     return int;
   } else {
-    
+    return arrayOfTransforms(int);    
   }
-  return arrayOfTransforms(int);
 }
